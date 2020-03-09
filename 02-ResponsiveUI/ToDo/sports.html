@@ -1,0 +1,74 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="jumbotron" style="text-align: center;">
+      <h1 class="display-4">Sports</h1>
+    </div>
+    <div style="margin: auto;  width: 55%">
+      <form>
+        <div class="form-group">
+          <label><h3>Imię</h3></label>
+          <input type="text" class="form-control" placeholder="Wpisz imię" />
+        </div>
+        <div class="form-group">
+          <label><h3>Nazwisko</h3></label>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Wpisz nazwisko"
+          />
+        </div>
+        <div class="form-group">
+          <label><h3>Email</h3></label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            placeholder="Wpisz email"
+          />
+        </div>
+
+        <h3>Student / Pracownik:</h3>
+        <label class="radio-inline"
+          ><input type="radio" name="optradio" checked /> Student</label
+        >
+        <label class="radio-inline"
+          ><input type="radio" name="optradio" /> Pracownik</label
+        >
+
+        <h3>Rodzaje zajęć:</h3>
+        <div class="checkbox">
+          <label><input type="checkbox" value="" /> Siatkówka</label>
+        </div>
+        <div class="checkbox">
+          <label><input type="checkbox" value="" /> Badminton</label>
+        </div>
+        <div class="checkbox">
+          <label><input type="checkbox" value="" /> Basen</label>
+        </div>
+
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1"><h3>Uwagi:</h3></label>
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+          ></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Zarejestruj</button>
+      </form>
+    </div>
+  </body>
+</html>
